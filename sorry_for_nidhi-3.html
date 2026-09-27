@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For My Nidhu ❤️</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;font-family:Arial,sans-serif;color:#432631;
+background:radial-gradient(circle at top,#fff7fa,#ffdce7 55%,#f8c4d5);overflow-x:hidden}
+.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+.heart{position:absolute;font-size:20px;animation:float 8s linear infinite;opacity:.5}
+@keyframes float{from{transform:translateY(110vh) rotate(0)}to{transform:translateY(-15vh) rotate(360deg)}}
+.wrap{width:min(94%,760px);margin:35px auto 70px}
+.card{background:rgba(255,255,255,.9);border:1px solid #fff;border-radius:32px;padding:30px 23px;text-align:center;box-shadow:0 20px 60px #8d3e5526}
+.badge{display:inline-block;padding:8px 15px;border-radius:99px;background:#ffe4ed;color:#a32d54;font-size:13px}
+h1{font-size:clamp(42px,11vw,72px);line-height:.95;margin:18px 0 8px;color:#ad2853}
+h2{color:#a32d54}.lead{font-size:18px;line-height:1.7}
+button{border:0;border-radius:99px;padding:14px 22px;margin:7px;font-size:16px;font-weight:600;cursor:pointer;transition:.2s}
+button:hover{transform:translateY(-2px) scale(1.03)}
+.primary{background:#bd315d;color:#fff}.soft{background:#ffe2eb;color:#9d2d51}
+.music{margin:24px auto;padding:17px;border-radius:22px;background:#fff1f5;border:1px solid #f4c4d3}
+.music b{display:block;margin-bottom:8px}.music small{color:#80616a}
+.section{display:none;text-align:left;margin-top:26px;line-height:1.8}.section.show{display:block}
+.note{background:#fff3f6;border-radius:22px;padding:20px;margin:14px 0}
+.center{text-align:center}
+.timeline{border-left:3px solid #eab0c2;padding-left:18px}
+.memory{margin:15px 0}.memory b{color:#a32d54}
+.photo{height:220px;border:2px dashed #e3a1b8;border-radius:22px;display:flex;align-items:center;justify-content:center;text-align:center;color:#986476;background:#fff8fa}
+.choice{text-align:center}.small{font-size:13px;color:#896874}
+footer{text-align:center;margin-top:18px;color:#7f5b67;font-size:13px}
+</style>
+</head>
+<body>
+<div class="hearts" id="hearts"></div>
+<div class="wrap"><div class="card">
+<span class="badge">A little website from Shubho → Nidhu</span>
+<h1>For my Nidhu ❤️</h1>
+<p class="lead">I couldn't fit everything I wanted to say into one call.<br>So I made you a little place where you can read it without me interrupting you.</p>
+
+<div class="music">
+<b>🎷 Our song — Careless Whisper</b>
+<small>Tap play below. It opens George Michael's official video on YouTube.</small><br>
+<a href="https://www.youtube.com/watch?v=izGwDsrQ1eQ" target="_blank" style="display:inline-block;margin-top:12px;text-decoration:none">
+<button class="primary">▶ Play Careless Whisper</button></a>
+</div>
+
+<button class="primary" onclick="show('letter')">Open my letter, Nidhu 💌</button>
+<button class="soft" onclick="show('story')">Our little story 🥹</button>
+
+<div id="letter" class="section">
+<div class="note">
+<p><b>My Nidhu,</b></p>
+<p>I know things between us haven't felt the way I wish they had lately. And Shubho has definitely made mistakes. I know that.</p>
+<p>I'm sorry for the times my fear of losing you turned into overthinking, pressure, or expectations. I'm sorry for the moments where I made loving you feel heavier than it should.</p>
+<p>I don't want this website to be a way of trapping you into staying. I don't want you to stay because you feel bad for me.</p>
+<p>I just wanted you to see the part of me that sometimes gets lost when we're arguing — the part that genuinely loves my Nidhu, values what we have, and wishes I had handled some things better.</p>
+<p>If there is still even a small part of you that wants to try, I would love to start again. Not pretending nothing happened. Not promising that everything will magically become perfect. Just two people actually listening to each other and doing things differently.</p>
+<p><b>And if you need time, I'll respect that too.</b></p>
+<p class="center"><b>Love,<br>your Shubho ❤️</b></p>
+</div>
+<button class="primary" onclick="show('story')">Keep going →</button>
+</div>
+
+<div id="story" class="section">
+<h2 class="center">A few things I don't want to forget</h2>
+<div class="timeline">
+<div class="memory"><b>♡ Nidhu</b><br>The name I call you because somehow it feels different from just calling you by your name.</div>
+<div class="memory"><b>♡ Shubho</b><br>The name you call me. A tiny word, but one that became ridiculously special to me.</div>
+<div class="memory"><b>♡ The ordinary calls</b><br>Even when nothing “interesting” happened, hearing your voice could make an ordinary day feel like something.</div>
+<div class="memory"><b>♡ The silly moments</b><br>The jokes, random conversations, teasing and all the little things that don't look important from outside — but are important to me.</div>
+</div>
+<div class="photo">📸<br><br>Add your favourite photo of you two here later.</div>
+<button class="primary" onclick="show('promise')">What Shubho would change →</button>
+</div>
+
+<div id="promise" class="section">
+<h2 class="center">I don't want to promise perfection.</h2>
+<div class="note">
+<p>♡ I'll communicate instead of assuming what you're thinking.</p>
+<p>♡ I'll give you space without turning that space into a test of whether you love me.</p>
+<p>♡ I'll listen before trying to fix everything.</p>
+<p>♡ I'll work on my own insecurities instead of making them your responsibility.</p>
+<p>♡ If we try again, I'll care more about making us healthy than simply making us stay together.</p>
+</div>
+<button class="primary" onclick="show('final')">One last thing, Nidhu ❤️</button>
+</div>
+
+<div id="final" class="section center">
+<div style="font-size:55px">🌷</div>
+<h2>I'm not asking for an answer right now.</h2>
+<p>I just wanted you to know that there is still a Shubho here who would rather have one honest conversation with his Nidhu than let everything we had disappear because we were hurting.</p>
+<p>If you still have a little “maybe” somewhere inside you, let's talk.</p>
+<p><b>No pressure. No begging. No fighting.<br>Just us.</b></p>
+<div class="choice">
+<button class="primary" onclick="reply('Then let’s talk. ❤️')">I want to talk</button>
+<button class="soft" onclick="reply('Okay. I’ll give you time. ❤️')">I need time</button>
+<p id="reply" style="font-weight:600"></p>
+</div>
+</div>
+</div>
+<footer>Made by Shubho, for Nidhu ❤️</footer>
+</div>
+<script>
+function show(id){document.querySelectorAll('.section').forEach(x=>x.classList.remove('show'));document.getElementById(id).classList.add('show');document.getElementById(id).scrollIntoView({behavior:'smooth',block:'center'})}
+function reply(t){document.getElementById('reply').textContent=t}
+for(let i=0;i<22;i++){let h=document.createElement('div');h.className='heart';h.textContent=['❤️','💕','💗','💖'][Math.floor(Math.random()*4)];h.style.left=Math.random()*100+'%';h.style.animationDelay=Math.random()*8+'s';h.style.animationDuration=5+Math.random()*6+'s';document.getElementById('hearts').appendChild(h)}
+</script>
+</body>
+</html>
